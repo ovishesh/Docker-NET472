@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webtest:
+    image: ${DOCKER_REGISTRY}webtest
+    build:
+      context: .\WebTest
+      dockerfile: Dockerfile
