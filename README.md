@@ -34,7 +34,7 @@ COPY --from=build /app/<path-to>/. ./
 1. Follow [this guide](https://github.com/microsoft/dotnet-framework-docker/blob/master/samples/aspnetapp/README.md#view-the-aspnet-app-in-a-running-container-on-windows) to view the ASP.NET app in a running container on Windows or follow the steps below:
     * Open up another command prompt.
     * Check the name of the conatiner by running `docker ps` and look at the CONTAINER ID or NAMES section that maps to your conatiner image 
-    * Run `docker exec <container name> ipconfig`.
+    * Run `docker exec <container name> ipconfig`
     * Copy the container IP address and paste into your browser (for example, `172.29.245.43`).
 
 
